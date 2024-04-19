@@ -9,6 +9,7 @@ CLASS Pessoa
   DATA Altura
   DATA Peso
   DATA Nascimento
+  DATA Idade
 
   METHOD New( Nome, SobreNome, Signo, Altura, Peso )
   METHOD Idade()
@@ -29,6 +30,6 @@ RETURN Self
 //Calculo da idade 
 METHOD Idade()
 
-  ? INT(( date() - ::Nascimento ) / 365)  , "aninhos de vida"
+  Idade := INT(( date() - ::Nascimento ) / 365)
 
-RETURN
+RETURN Idade
