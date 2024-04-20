@@ -1,1 +1,1 @@
-Exercício feito em Harbour, aprendendo e praticando o uso das classes!
+Exercício para praticar as classes
