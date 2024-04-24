@@ -32,4 +32,4 @@ METHOD Idade()
 
   Idade := INT(( date() - ::Nascimento ) / 365)
 
-RETURN Idade
+RETURN ALLTRIM(STR(Idade))
